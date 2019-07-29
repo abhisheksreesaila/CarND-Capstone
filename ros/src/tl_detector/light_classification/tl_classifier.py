@@ -4,7 +4,7 @@ import numpy as np
 import datetime
 
 class TLClassifier(object):
-    def __init__(self):
+    def __init__(self, is_sim):
         if is_sim:
             PATH_TO_GRAPH = r'light_classification/model/ssd_sim/frozen_inference_graph.pb'
         else:
