@@ -1,18 +1,14 @@
 # Team : Gear Shifters 
 
+- Abhishek  abhishek.sreesaila@outlook.com (Team Lead)
 - Anshul Singhal	anshulsinghal33@gmail.com
 - Sidaus	sid.vishwa@gmail.com
 - Krishna Priyadharshni Ravichandran kpd.ravichandran@gmail.com
-- Abhishek  abhishek.sreesaila@outlook.com
+
 
 ### System Architecture
 
 ![ROSArchitecture](https://github.com/abhisheksreesaila/CarND-Capstone/raw/master/final-project-ros-graph-v2.png)
-
-### WriteUp
-
-
-
 
 
 ### Project Setup
