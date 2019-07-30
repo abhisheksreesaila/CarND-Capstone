@@ -61,7 +61,7 @@ class TLDetector(object):
         self.ros_spin()
         
     def ros_spin(self):
-        rate = rospy.Rate(10)
+        rate = rospy.Rate(50)
         while not rospy.is_shutdown():
             '''Publish upcoming red lights at camera frequency.
             Each predicted state has to occur `STATE_COUNT_THRESHOLD` number
@@ -70,7 +70,6 @@ class TLDetector(object):
             '''
             if self.pose is not None and self.waypoints is not None and self.camera_image is not None:
                 light_wp, state = self.process_traffic_lights()
-                #print("Light waypoint Index: ",light_wp, "Traffic Light: ",TrafficLight.RED, state)
                 if self.state != state:
                     self.state_count = 0
                     self.state = state
